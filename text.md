@@ -1,0 +1,763 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="" rel="stylesheet" />
+    <title>SIGNIFICO</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bruno+Ace+SC&family=Bungee+Shade&family=Cinzel:wght@400..900&family=Creepster&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Hind+Siliguri:wght@300;400;500;600;700&family=IM+Fell+English+SC&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Manrope:wght@200..800&family=Merienda:wght@300..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=PT+Sans+Narrow:wght@400;700&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Rubik+Scribble&family=Rubik+Vinyl&family=Rubik:ital,wght@0,300..900;1,300..900&family=Saira:ital,wght@0,100..900;1,100..900&family=Spicy+Rice&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Vast+Shadow&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body theme="white">
+
+    <div class="main w-full relative">
+
+      <div data-color="black" class="home section w-full h-[200vh] relative">
+        <div class="w-full sticky top-0 left-0 ">
+
+
+        <div class="btmtext absolute z-[4] bottom-[7%] left-[3%] w-60 ">
+          <h1 class="text-2xl ">
+            We build big ideas. Software. Apps. Tools. For real people. Real
+            lives.
+          </h1>
+        </div>
+        <div class="btmtext absolute z-[4] top-[0%] left-[3%] w-62 ">
+          <!-- <h1 class="text-2xl ">
+            We build big ideas. Software. Apps. Tools. For real people. Real
+            lives.
+          </h1> -->
+          <svg width="200px" height="200px" viewBox="0 0 1251 334" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M519.86 82.99C507.46 82.99 496.09 85.78 485.72 91.37C475.35 96.96 467.42 104.76 461.95 114.73L458.38 88.13H428V262.49H461.62V170.02C461.62 152.91 465.96 139.21 474.67 128.99C483.36 118.77 495.58 113.67 511.31 113.67C524.17 113.67 534.41 117.54 542.05 125.27C549.68 133.01 553.5 145.67 553.5 163.28V262.49H587.1V155.78C587.1 133.42 581.61 115.7 570.66 102.61C559.7 89.52 542.77 82.97 519.89 82.97L519.87 82.99H519.86Z" fill="currentColor"></path>
+<path d="M651.59 88.17H617.99V262.51H651.59V88.17Z" fill="currentColor"></path>
+<path d="M651.59 33.7H617.99V67.3H651.59V33.7Z" fill="currentColor"></path>
+<path d="M194.75 88.17H161.15V262.51H194.75V88.17Z" fill="currentColor"></path>
+<path d="M194.75 33.7H161.15V67.3H194.75V33.7Z" fill="currentColor"></path>
+<path d="M355.99 200.48C351.58 209.29 345.32 216.17 337.22 221.18C329.12 226.19 319.35 228.68 307.92 228.68C297.18 228.68 287.83 226.06 279.85 220.82C271.86 215.61 265.68 208.57 261.27 199.77C256.86 190.98 254.66 181.12 254.66 170.15V170.11C254.66 159.41 256.8 149.71 261.08 141.03C265.36 132.35 271.51 125.41 279.49 120.16C287.46 114.93 296.84 112.3 308.27 112.3C319.7 112.3 329.47 114.81 337.57 119.8C345.67 124.81 351.87 131.58 356.15 140.15C360.43 148.73 362.59 158.71 362.59 170.12C362.59 181.53 360.39 191.66 355.98 200.45V200.47L355.99 200.48ZM364.71 117.99C359.85 108.24 352.98 100.34 344.01 94.33C332.78 86.85 319.34 83.1 303.61 83.1C286.69 83.1 272.04 87.03 259.66 94.88C247.26 102.72 237.73 113.25 231.07 126.45C224.39 139.67 221.05 154.47 221.05 170.89L221.01 170.85C221.01 187.25 224.29 202.01 230.84 215.12C237.39 228.21 246.76 238.61 258.91 246.34C271.07 254.08 285.48 257.94 302.16 257.94C317.87 257.94 331.7 254.2 343.62 246.71C352.44 241.16 359.24 234.07 364 225.47V248.52C364 265.16 359.05 278.44 349.16 288.3C339.27 298.17 326.11 303.12 309.66 303.12C295.12 303.12 283.23 299.56 273.92 292.42C264.63 285.27 258.92 275.29 256.77 262.45H223.17C226.52 284.57 235.81 301.93 251.06 314.54C266.33 327.16 285.85 333.45 309.7 333.45C327.57 333.45 343.06 329.76 356.18 322.39C369.29 315.02 379.43 304.61 386.56 291.17C393.71 277.73 397.28 261.85 397.28 243.55V88.09H367.25L364.7 118.01V117.99H364.71Z" fill="currentColor"></path>
+<path d="M0 212.04H32.22C32.22 220.84 35.44 227.8 41.89 232.91C48.33 238.03 57.04 240.58 68.02 240.58C79.95 240.58 89.14 238.26 95.59 233.62C102.03 228.98 105.26 222.74 105.26 214.89C105.26 209.18 103.53 204.43 100.07 200.62C96.61 196.82 90.34 193.72 81.28 191.34L50.49 184.2C34.97 180.4 23.46 174.57 15.94 166.72C8.42 158.87 4.66 148.52 4.66 135.68C4.66 124.98 7.46 115.7 13.07 107.85C18.67 100 26.43 93.93 36.34 89.65C46.24 85.37 57.64 83.23 70.53 83.23C83.42 83.23 94.57 85.49 104 90.01C113.43 94.53 120.83 100.84 126.2 108.92C131.57 117.01 134.37 126.64 134.61 137.82H102.39C102.15 128.78 99.17 121.76 93.44 116.77C87.71 111.77 79.71 109.28 69.45 109.28C59.19 109.28 50.83 111.54 45.11 116.06C39.38 120.58 36.52 126.76 36.52 134.61C36.52 146.27 45.11 154.23 62.3 158.52L93.09 166.01C107.89 169.34 118.98 174.75 126.38 182.24C133.78 189.73 137.48 199.9 137.48 212.75C137.48 223.69 134.49 233.27 128.53 241.47C122.56 249.68 114.39 255.98 104.01 260.38C93.63 264.78 81.39 266.98 67.32 266.98C46.79 266.98 30.45 261.98 18.27 251.99C6.09 242.02 0 228.7 0 212.04Z" fill="currentColor"></path>
+<path d="M819.92 33.7H786.32V67.3H819.92V33.7Z" fill="currentColor"></path>
+<path d="M761.1 0C729.39 0 703.59 25.71 703.59 57.3V88.13H677.94V116.31H703.59V262.45H737.25V116.31H786.3V262.45H819.9V88.17H737.24V57.34C737.24 44.29 747.93 33.7 761.07 33.7H786.29V0H761.07H761.1Z" fill="currentColor"></path>
+<path d="M962.59 228.09C954.01 234.01 943.75 236.99 931.85 236.99C921.35 236.99 912.19 234.42 904.34 229.32C896.47 224.2 890.4 217.07 886.11 207.91C881.83 198.75 879.67 187.88 879.67 175.26C879.67 162.64 881.92 151.71 886.46 142.42C890.98 133.13 897.29 125.94 905.41 120.83C913.51 115.73 922.82 113.16 933.3 113.16C944.49 113.16 954.26 116.01 962.6 121.72C970.92 127.42 976.54 135.87 979.39 147.06H1012.99C1010.12 127.77 1001.41 112.32 986.89 100.67C972.35 89.02 954.11 83.19 932.2 83.19C915.28 83.19 900.38 87.12 887.52 94.97C874.64 102.83 864.57 113.64 857.31 127.46C850.05 141.27 846.42 157.32 846.42 175.64C846.42 193.96 849.98 209.99 857.14 223.63C864.31 237.33 874.25 247.98 887 255.58C899.73 263.19 914.72 267.01 931.86 267.01C945.93 267.01 958.72 264.33 970.3 258.99C981.86 253.65 991.39 246.26 998.89 236.86C1006.41 227.48 1011.21 216.48 1013.37 203.85H979.77C976.92 214.09 971.19 222.17 962.62 228.13L962.56 228.11L962.59 228.09Z" fill="currentColor"></path>
+<path d="M1171.66 207.26C1166.76 216.57 1160.04 223.82 1151.46 229.09C1142.88 234.33 1132.99 236.96 1121.8 236.96C1110.61 236.96 1100.71 234.33 1092.14 229.09C1083.56 223.85 1076.82 216.57 1071.94 207.26C1067.04 197.95 1064.61 187.23 1064.61 175.06C1064.61 162.89 1067.05 151.87 1071.94 142.7C1076.84 133.52 1083.56 126.3 1092.14 121.06C1100.72 115.82 1110.61 113.19 1121.8 113.19C1132.99 113.19 1142.89 115.82 1151.46 121.06C1160.04 126.3 1166.76 133.52 1171.66 142.7C1176.56 151.88 1178.99 162.9 1178.99 175.06C1178.99 187.22 1176.55 197.95 1171.66 207.26ZM1168.63 94.98C1155.04 87.11 1139.44 83.17 1121.79 83.17C1104.14 83.17 1088.49 87.11 1074.78 94.98C1061.06 102.85 1050.3 113.69 1042.43 127.53C1034.56 141.35 1030.63 157.19 1030.63 175.08C1030.63 192.97 1034.56 208.81 1042.43 222.63C1050.3 236.45 1061.06 247.31 1074.78 255.18C1088.48 263.05 1104.16 266.99 1121.79 266.99C1139.42 266.99 1155.04 263.05 1168.63 255.18C1182.22 247.31 1192.94 236.47 1200.82 222.63C1208.69 208.81 1212.62 192.97 1212.62 175.08C1212.62 157.19 1208.69 141.35 1200.82 127.53C1192.95 113.71 1182.24 102.85 1168.63 94.98Z" fill="currentColor"></path>
+<path d="M1234.78 104.31H1230.54V98.11H1234.78C1237.22 98.11 1238.45 99.12 1238.45 101.13C1238.45 102.15 1238.13 102.95 1237.46 103.49C1236.81 104.03 1235.91 104.31 1234.76 104.31H1234.78ZM1240.68 104.23C1241.37 103.24 1241.7 102.16 1241.7 100.97C1241.7 99.18 1241.07 97.77 1239.82 96.76C1238.57 95.75 1236.92 95.25 1234.85 95.25H1227.52V114H1230.54V107.15H1235.03L1238.62 114H1241.97L1237.82 106.33C1239.07 105.9 1240.04 105.19 1240.71 104.21L1240.69 104.23H1240.68Z" fill="currentColor"></path>
+<path d="M1246.09 112.01C1244.9 114.15 1243.26 115.83 1241.19 117.02C1239.12 118.21 1236.76 118.81 1234.1 118.81C1231.44 118.81 1229.06 118.21 1226.97 117.02C1224.89 115.83 1223.23 114.15 1222.04 112.01C1220.85 109.87 1220.25 107.49 1220.25 104.88C1220.25 102.27 1220.85 99.84 1222.04 97.75C1223.23 95.66 1224.89 93.99 1226.97 92.78C1229.05 91.57 1231.44 90.94 1234.1 90.94C1236.76 90.94 1239.13 91.54 1241.19 92.73C1243.26 93.92 1244.89 95.58 1246.09 97.66C1247.28 99.74 1247.88 102.17 1247.88 104.88C1247.88 107.59 1247.28 109.87 1246.09 112.01ZM1248.66 96.28C1247.23 93.75 1245.22 91.77 1242.67 90.32C1240.12 88.89 1237.25 88.16 1234.11 88.16C1230.97 88.16 1228.1 88.89 1225.55 90.36C1223 91.83 1220.97 93.82 1219.48 96.35C1217.99 98.88 1217.25 101.71 1217.25 104.88C1217.25 108.05 1217.99 110.87 1219.48 113.41C1220.97 115.94 1222.98 117.93 1225.51 119.4C1228.04 120.87 1230.91 121.6 1234.11 121.6C1237.31 121.6 1240.18 120.87 1242.71 119.4C1245.24 117.93 1247.22 115.94 1248.67 113.41C1250.1 110.88 1250.83 108.05 1250.83 104.88C1250.83 101.71 1250.1 98.81 1248.67 96.28H1248.66Z" fill="currentColor"></path>
+</svg>
+        </div>
+
+        <div style="--clip:100%" class="vdodiv w-full h-screen absolute z-[3] top-0 left-0  bg-red-300">
+          <video
+            autoplay
+            loop
+            muted
+            class="absolute "
+            src="https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/bBj1XfrSyi/1ENIoa5sjq"
+          ></video>
+        </div>
+
+
+
+
+
+
+        <div class="marqueecontainer w-full h-screen relative overflow-hidden">
+          <div class="heading absolute top-[7%] left-1/2 -translate-x-1/2 w-60 text-center">
+            <h1 class="text-xl font-regular">
+              Crafting a new paradigm of healthcare, one that is
+            </h1>
+          </div>
+
+          <div class="slidesm absolute scale-[1] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%]">
+            <div class="row lft -translate-x-1/2 w-full flex items-center gap-10  whitespace-nowrap"
+            >
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">empathetic</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                >
+                  <img
+                    class="w-full h-full object-cover"
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png"
+                  />
+                </div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">thoughtful</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">balanced</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">empathetic</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">thoughtful</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">balanced</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png" alt=""></div>
+              </div>
+            </div>
+              <div class="row rgt -translate-x-1/3 w-full flex items-center gap-10  whitespace-nowrap"
+            >
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">empathetic</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                >
+                  <img
+                    class="w-full h-full object-cover"
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png"
+                  />
+                </div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">thoughtful</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">balanced</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">empathetic</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">thoughtful</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">balanced</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png" alt=""></div>
+              </div>
+            </div>
+
+             <div class="row rgt -translate-x-2/3 w-full flex items-center gap-10  whitespace-nowrap"
+            >
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">empathetic</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                >
+                  <img
+                    class="w-full h-full object-cover"
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png"
+                  />
+                </div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">thoughtful</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">balanced</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">empathetic</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">thoughtful</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">balanced</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png" alt=""></div>
+              </div>
+            </div>
+              <div class="row lft -translate-x-1/2 w-full flex items-center gap-10  whitespace-nowrap"
+            >
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">empathetic</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                >
+                  <img
+                    class="w-full h-full object-cover"
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png"
+                  />
+                </div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">thoughtful</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">balanced</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483195_Ellipse%20845.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">empathetic</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">thoughtful</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png" alt=""></div>
+              </div>
+              <div class="elem flex items-center gap-10">
+                <h1 class="font-semibold text-8xl font-mono">balanced</h1>
+                <div
+                  class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-blue-300"
+                ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483195_Ellipse%20845.png" alt=""></div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+
+
+      </div>
+        </div>
+
+      <!-- </div>
+        </div> -->
+
+      <div data-color="cyan" class="craft section w-full flex gap-10 justify-between items-start px-10 py-10 relative">
+        <div class="ltext section w-[40%] sticky top-0 left-0">
+          <p class="text-3xl font-light leading-[3rem]">
+            Significo is a leading health software creator founded on the belief
+            that technology can transform healthcare to put people first.
+            Whether they are employees, members, customers, or clients, we never
+            forget the real people we’re designing for.
+          </p>
+          <h1 class="text-[5rem] leading-[7rem] mt-20 font-monospace mb-10">
+            We Craft Human-Centric Health Software
+          </h1>
+
+          <div class="w-fit px-10 py-5 border-[1px] border-[--dcyan]">
+            <div class="masker overflow-hidden">
+              <span class="inline-block"> Our Solution </span>
+            </div>
+          </div>
+        </div>
+        <div class="cards w-1/2 flex flex-col gap-[20px] ">
+
+
+          <div class="w-[80%] h-[250px] bg-[#AEDEE0] p-[20px] border border-black">
+            <h1 class="text-3xl m-[20px]">Driven by Purpose</h1>
+          <div class="flex align-content-center justify-content-between m-[20px] gap-20">
+            <p class="w-[70%] text-[1.2rem]" >We believe technology can dramatically
+improve the experience of managing health,
+and when crafted with empathy, intention,
+and expertise, impact lives at scale</p>
+<svg width="100px" height="100px" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.2" d="M45.9998 10H31.9998L19.7271 26L31.9998 56L59.9998 26L45.9998 10Z" fill="currentColor"></path>
+<path d="M18 10H46L60 26L32 56L4 26L18 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M44.2726 26L31.9998 56L19.7271 26L31.9998 10L44.2726 26Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M4 26H60" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+          </div>
+
+          </div>
+           <div class="w-[80%] h-[250px] bg-[#AEDEE0] p-[20px] border border-black">
+            <h1 class="text-3xl m-[20px]">Custom Products</h1>
+          <div class="flex align-content-center justify-content-between m-[20px] gap-20">
+            <p class="w-[70%] text-[1.2rem]" >We see a need and we develop a solution.
+Our proprietary technology is available to
+integrate with your systems, to license, or to
+customize to meet your needs.</p>
+
+  <svg width="100px" height="100px" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.2" d="M49.0005 54C52.8665 54 56.0005 50.866 56.0005 47C56.0005 43.134 52.8665 40 49.0005 40C45.1345 40 42.0005 43.134 42.0005 47C42.0005 50.866 45.1345 54 49.0005 54Z" fill="currentColor"></path>
+<path opacity="0.2" d="M15 24C18.866 24 22 20.866 22 17C22 13.134 18.866 10 15 10C11.134 10 8 13.134 8 17C8 20.866 11.134 24 15 24Z" fill="currentColor"></path>
+<path d="M49.0005 54C52.8665 54 56.0005 50.866 56.0005 47C56.0005 43.134 52.8665 40 49.0005 40C45.1345 40 42.0005 43.134 42.0005 47C42.0005 50.866 45.1345 54 49.0005 54Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M49.0006 40L49.0002 29.9703C49.0001 26.7878 47.7358 23.7358 45.4855 21.4855L36 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M36 22V12H46" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M15 24C18.866 24 22 20.866 22 17C22 13.134 18.866 10 15 10C11.134 10 8 13.134 8 17C8 20.866 11.134 24 15 24Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M15 24L15.0004 34.0297C15.0005 37.2122 16.2648 40.2642 18.5151 42.5145L28.0006 52" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M28.0003 42V52H18.0003" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+
+          </div>
+
+          </div>
+           <div class="w-[80%] h-[250px] bg-[#AEDEE0] p-[20px] border border-black">
+            <h1 class="text-3xl m-[20px]">Driven by Purpose</h1>
+          <div class="flex align-content-center justify-content-between m-[20px] gap-20">
+            <p class="w-[70%] text-[1.2rem]" >We believe technology can dramatically
+improve the experience of managing health,
+and when crafted with empathy, intention,
+and expertise, impact lives at scale</p>
+<svg width="100px" height="100px" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.2" d="M50 38.2155L40.8007 47.4147C40.5565 47.659 40.2532 47.8358 39.9204 47.928C39.5875 48.0201 39.2365 48.0246 38.9014 47.9408L24.4122 44.3185C24.1404 44.2506 23.886 44.1263 23.6653 43.9537L10 33.268L18.1436 17.9475L30.9736 14.2071C31.4319 14.0735 31.9229 14.1082 32.3578 14.3051L41 18.2155H35.8284C35.5658 18.2155 35.3057 18.2672 35.0631 18.3677C34.8204 18.4682 34.5999 18.6155 34.4142 18.8012L24.6306 28.5848C24.428 28.7875 24.2713 29.0313 24.1711 29.2997C24.0709 29.5682 24.0295 29.855 24.0498 30.1408C24.0702 30.4267 24.1517 30.7048 24.2888 30.9564C24.426 31.208 24.6156 31.4271 24.8448 31.5991L26.2 32.6155C27.5848 33.654 29.269 34.2155 31 34.2155C32.731 34.2155 34.4152 33.654 35.8 32.6155L39 30.2155L50 38.2155Z" fill="currentColor"></path>
+<path d="M60.1794 30.4462L54 33.5359L46 18.2154L52.2423 15.0942C52.7113 14.8597 53.2536 14.8188 53.7525 14.9802C54.2514 15.1416 54.6669 15.4925 54.9096 15.9573L61.0578 27.7316C61.1808 27.967 61.2556 28.2246 61.2779 28.4892C61.3002 28.7539 61.2696 29.0204 61.1878 29.2731C61.1061 29.5258 60.9748 29.7596 60.8016 29.9611C60.6285 30.1625 60.417 30.3274 60.1794 30.4462V30.4462Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M10.0011 33.2681L3.8217 30.1784C3.58414 30.0596 3.37261 29.8947 3.19947 29.6932C3.02633 29.4918 2.89504 29.258 2.81327 29.0052C2.7315 28.7525 2.70088 28.4861 2.7232 28.2214C2.74552 27.9568 2.82033 27.6992 2.94327 27.4638L9.09151 15.6895C9.33421 15.2247 9.74973 14.8738 10.2486 14.7124C10.7475 14.551 11.2898 14.5919 11.7588 14.8264L18.0011 17.9475L10.0011 33.2681Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M54 33.5359L50 38.2154L40.8007 47.4147C40.5565 47.6589 40.2532 47.8357 39.9204 47.9279C39.5875 48.0201 39.2365 48.0245 38.9014 47.9407L24.4122 44.3184C24.1404 44.2505 23.886 44.1262 23.6653 43.9537L10 33.2679" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M50 38.2155L39 30.2155L35.8 32.6155C34.4152 33.654 32.7309 34.2155 31 34.2155C29.269 34.2155 27.5848 33.654 26.2 32.6155L24.8448 31.5991C24.6156 31.4271 24.4259 31.208 24.2888 30.9564C24.1516 30.7048 24.0701 30.4267 24.0498 30.1408C24.0295 29.855 24.0709 29.5682 24.1711 29.2997C24.2713 29.0313 24.428 28.7875 24.6306 28.5849L34.4142 18.8012C34.5999 18.6155 34.8204 18.4682 35.063 18.3677C35.3057 18.2672 35.5658 18.2155 35.8284 18.2155H46" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M18.1433 17.9475L30.9733 14.2071C31.4316 14.0735 31.9226 14.1082 32.3576 14.3051L40.9997 18.2155" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M28 53.2154L20.4651 51.3317C20.1594 51.2552 19.876 51.1076 19.6381 50.9008L14 46" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+          </div>
+
+          </div>
+           <div class="w-[80%] h-[250px] bg-[#AEDEE0] p-[20px] border border-black">
+            <h1 class="text-3xl m-[20px]">Driven by Purpose</h1>
+          <div class="flex align-content-center justify-content-between m-[20px] gap-20">
+            <p class="w-[70%] text-[1.2rem]" >We believe technology can dramatically
+improve the experience of managing health,
+and when crafted with empathy, intention,
+and expertise, impact lives at scale</p>
+<svg width="100px" height="100px" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.2" d="M10 26.6667V12C10 11.4696 10.2107 10.9609 10.5858 10.5858C10.9609 10.2107 11.4696 10 12 10H52C52.5304 10 53.0391 10.2107 53.4142 10.5858C53.7893 10.9609 54 11.4696 54 12V26.6667C54 47.6705 36.1735 54.6292 32.6141 55.8093C32.2161 55.9463 31.7839 55.9463 31.386 55.8093C27.8265 54.6292 10 47.6705 10 26.6667Z" fill="currentColor"></path>
+<path d="M10 26.6667V12C10 11.4696 10.2107 10.9609 10.5858 10.5858C10.9609 10.2107 11.4696 10 12 10H52C52.5304 10 53.0391 10.2107 53.4142 10.5858C53.7893 10.9609 54 11.4696 54 12V26.6667C54 47.6705 36.1735 54.6292 32.6141 55.8093C32.2161 55.9463 31.7839 55.9463 31.386 55.8093C27.8265 54.6292 10 47.6705 10 26.6667Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M43 24L28.3333 38L21 31" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+          </div>
+
+          </div>
+           <div class="w-[80%] h-[250px] bg-[#AEDEE0] p-[20px] border border-black">
+            <h1 class="text-3xl m-[20px]">Driven by Purpose</h1>
+          <div class="flex align-content-center justify-content-between m-[20px] gap-20">
+            <p class="w-[70%] text-[1.2rem]" >We believe technology can dramatically
+improve the experience of managing health,
+and when crafted with empathy, intention,
+and expertise, impact lives at scale</p>
+<svg width="100px" height="100px" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.2" d="M45.9998 10H31.9998L19.7271 26L31.9998 56L59.9998 26L45.9998 10Z" fill="currentColor"></path>
+<path d="M18 10H46L60 26L32 56L4 26L18 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M44.2726 26L31.9998 56L19.7271 26L31.9998 10L44.2726 26Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M4 26H60" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+          </div>
+
+          </div>
+           <div class="w-[80%] h-[250px] bg-[#AEDEE0] p-[20px] border border-black">
+            <h1 class="text-3xl m-[20px]">Driven by Purpose</h1>
+          <div class="flex align-content-center justify-content-between m-[20px] gap-20">
+            <p class="w-[70%] text-[1.2rem]" >We believe technology can dramatically
+improve the experience of managing health,
+and when crafted with empathy, intention,
+and expertise, impact lives at scale</p>
+<svg width="100px" height="100px" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.2" d="M45.9998 10H31.9998L19.7271 26L31.9998 56L59.9998 26L45.9998 10Z" fill="currentColor"></path>
+<path d="M18 10H46L60 26L32 56L4 26L18 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M44.2726 26L31.9998 56L19.7271 26L31.9998 10L44.2726 26Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M4 26H60" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+          </div>
+
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <div data-color="salmon" class="real section w-full">
+              <div class="cont h-[200vh]  relative ">
+
+
+          <div class="slides  w-full h-screen sticky top-0 left-0 flex  gap-20  overflow-hidden ">
+
+            <div class="slide w-full h-screen flex items-center justify-center  flex-shrink-0 relative">
+              <div class="div font-monospace">
+                <h1 class="text-8xl">Real talk,</h1>
+                <h1 class="text-8xl">Real Impact</h1>
+              </div>
+              <div
+                class="image overflow-hidden absolute top-1/2 right-0 -translate-y-1/2 rounded-full translate-x-1/2 w-[20rem] h-[20rem] bg-red-600"
+              >
+                <img
+                  class="w-full h-full object-cover"
+                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d34831b1_horizontal%20imgs%2001.webp"
+                />
+              </div>
+            </div>
+
+             <div class="slide w-full h-screen flex items-center justify-center  flex-shrink-0 relative"
+            >
+              <div
+                class="img1 absolute z-[3] left-[35%] top-[90%] -translate-y-1/3 rounded-full overflow-hidden w-[25rem] h-[25rem]"
+              >
+                <img
+                  class="w-full h-full object-cover"
+                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d34831b0_horizontal%20imgs%2002.webp"
+                />
+              </div>
+              <div
+                class="img2 absolute z-[3] left-1/2 top-[5%] -translate-y-1/2 -translate-x-1/2 rounded-full overflow-hidden w-[18rem] h-[18rem]"
+              >
+                <img
+                  class="w-full h-full object-cover"
+                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483177_horizontal%20imgs%2004.webp"
+                />
+              </div>
+              <div
+                class="img2 absolute z-[3] left-[20%] top-[75%] -translate-y-1/2 -translate-x-1/2 rounded-full overflow-hidden w-[13rem] h-[13rem]"
+              >
+                <img
+                  class="w-full h-full object-cover"
+                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483174_horizontal%20imgs%2003.webp"
+                />
+              </div>
+              <div
+                class="img2 absolute z-[3] left-[90%] top-[30%] -translate-y-1/2 -translate-x-1/2 rounded-full overflow-hidden w-[28rem] h-[28rem]"
+              >
+                <img
+                  class="w-full h-full object-cover"
+                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d34831b6_horizontal%20imgs%2005.webp"
+                />
+              </div>
+
+              <div class="w-[60%] text-center font-monospace relative">
+                <h3
+                  class="w-1/3 text-left font-semibold leading-7 text-[1.3rem] tracking-tight absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2"
+                >
+                  We’re on a mission to impact as many lives as possible and
+                  build a better company while we do it. Here’s our progress.
+                </h3>
+                <h1 class="font-medium text-[12rem] leading-none text-white">
+                  20.4M
+                </h1>
+                <h3 class="text-5xl leading-none tracking-tight">
+                  Real people — real lives — we have built products and
+                  solutions for.
+                </h3>
+              </div>
+            </div>
+
+             <div class="slide w-full h-screen flex items-center justify-center  flex-shrink-0 relative">
+              <div
+                class="img1 absolute z-[3] left-[35%] top-[80%] -translate-y-1/3 rounded-full overflow-hidden w-[25rem] h-[25rem]"
+              >
+                <img
+                  class="w-full h-full object-cover"
+                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d34831b2_horizontal%20imgs%2006.webp"
+                />
+              </div>
+              <div
+                class="img2 absolute z-[3] left-1/2 top-[5%] -translate-y-1/2 -translate-x-1/2 rounded-full overflow-hidden w-[18rem] h-[18rem]"
+              >
+                <img
+                  class="w-full h-full object-cover"
+                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483177_horizontal%20imgs%2004.webp"
+                />
+              </div>
+              <div
+                class="img2 absolute z-[3] left-[20%] top-[75%] -translate-y-1/2 -translate-x-1/2 rounded-full overflow-hidden w-[13rem] h-[13rem]"
+              >
+                <img
+                  class="w-full h-full object-cover"
+                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483178_horizontal%20imgs%2008.webp"
+                />
+              </div>
+              <div
+                class="img2 absolute z-[3] left-[90%] top-[30%] -translate-y-1/2 -translate-x-1/2 rounded-full overflow-hidden w-[25rem] h-[25rem]"
+              >
+                <img
+                  class="w-full h-full object-cover"
+                  src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d34831b4_horizontal%20imgs%2007.webp"
+                />
+              </div>
+
+              <div class="w-[60%] text-center font-monospace relative">
+                <h3
+                  class="w-1/3 font-semibold leading-7 text-[1.7rem] text-white tracking-tight absolute top-[10%] left-0 -translate-x-1/2 -translate-y-1/2"
+                >
+                  Our team is global and diverse, because our individual
+                  experiences make us stronger.
+                </h3>
+                <h1 class="font-medium text-[12rem] leading-none text-white">
+                  43%
+                </h1>
+                <h3 class="text-5xl leading-none tracking-tight">
+                  Expert Women in Tech.
+                </h3>
+              </div>
+            </div>
+
+
+
+        </div>
+
+
+         </div>
+
+      </div>
+
+
+
+      <div data-color="white" class="team section py-[500px]">
+        <h1 class="text-center font-system-ui text-8xl tracking-tight">
+          Our Team
+        </h1>
+
+        <div class="list mt-10 w-full px-10">
+          <div class="listelem border-b-2 border-black w-full py-[3rem] relative"
+          >
+            <div class="relative flex items-center justify-between z-[3]">
+              <div class="left flex gap-20">
+                <h3 class="text-5xl">01</h3>
+                <h1 class="text-5xl">Dr. Ric McCartney</h1>
+              </div>
+              <h3 class="text-5xl">CEO</h3>
+            </div>
+            <div
+              class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[25rem] w-[25rem] overflow-hiden rounded-full bg-red-500">
+             <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d3483259_Rick%20McCartney%20.png" alt="">
+            </div>
+
+            <div class="bluelayer bottom-0 left-0 absolute z-[2] w-full h-[0%] bg-blue-500"></div>
+          </div>
+          <div class="listelem border-b-2 border-black w-full py-[3rem] relative"
+          >
+            <div class="relative flex items-center justify-between z-[3]">
+              <div class="left flex gap-20">
+                <h3 class="text-5xl">02</h3>
+                <h1 class="text-5xl">Dr. Ric McCartney</h1>
+              </div>
+              <h3 class="text-5xl">CEO</h3>
+            </div>
+            <div
+              class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[25rem] w-[25rem] overflow-hiden rounded-full bg-red-500"
+            ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832ae_655d505c9d551c9c11dd3613_Chris20Koha.png" alt="">
+</div>
+
+            <div
+              class="bluelayer bottom-0 left-0 absolute z-[2] w-full h-[0%] bg-blue-500"
+            ></div>
+          </div>
+          <div class="listelem border-b-2 border-black w-full py-[3rem] relative"
+          >
+            <div class="relative flex items-center justify-between z-[3]">
+              <div class="left flex gap-20">
+                <h3 class="text-5xl">03</h3>
+                <h1 class="text-5xl">Dr. Ric McCartney</h1>
+              </div>
+              <h3 class="text-5xl">CEO</h3>
+            </div>
+            <div
+              class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[25rem] w-[25rem] overflow-hiden rounded-full bg-red-500"
+            ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d3483297_655d5077c62c03c26afcfff2_Caroline20Nieto.png" alt="">
+          </div>
+
+            <div
+              class="bluelayer bottom-0 left-0 absolute z-[2] w-full h-[0%] bg-blue-500"
+            ></div>
+          </div>
+          <div class="listelem border-b-2 border-black w-full py-[3rem] relative"
+          >
+            <div class="relative flex items-center justify-between z-[3]">
+              <div class="left flex gap-20">
+                <h3 class="text-5xl">04</h3>
+                <h1 class="text-5xl">Dr. Ric McCartney</h1>
+              </div>
+              <h3 class="text-5xl">CEO</h3>
+            </div>
+            <div
+              class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[25rem] w-[25rem] overflow-hiden rounded-full bg-red-500"
+            ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832e6_655d504bfd0e67e20640dbbd_ViCC81ctor20Albertos.png" alt=""></div>
+
+            <div
+              class="bluelayer bottom-0 left-0 absolute z-[2] w-full h-[0%] bg-blue-500"
+            ></div>
+          </div>
+          <div class="listelem border-b-2 border-black w-full py-[3rem] relative"
+          >
+            <div class="relative flex items-center justify-between z-[3]">
+              <div class="left flex gap-20">
+                <h3 class="text-5xl">05</h3>
+                <h1 class="text-5xl">Dr. Ric McCartney</h1>
+              </div>
+              <h3 class="text-5xl">CEO</h3>
+            </div>
+            <div
+              class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[25rem] w-[25rem] overflow-hiden rounded-full bg-red-500"
+            ><img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d348325c_655d50b27e70d440e4404528_AdriaCC81n20Rubio.png" alt="">g</div>
+
+          </div>
+
+            <div
+              class="bluelayer bottom-0 left-0 absolute z-[2] w-full h-[0%] bg-blue-500"
+            >
+          </div>
+        </div>
+      </div>
+
+      <div data-color="cyan" class="paragraph section w-full h-[70vh] flex items-center justify-center">
+        <div class="text w-[70%] flex flex-col items-center justify-center">
+          <h3 class="textpara text-3xl font-light text-center leading-[2.5rem]">
+            Working with the Significo team has been such a pleasure! We took on
+            a significant project to rebuild our entire platform and the team
+            approached the project with our best interests in mind. They
+            continue to prioritize the end user experience and offer amazing
+            expertise in all of the areas we lack internally. I would personally
+            be lost without this team, their ability to problem solve, their
+            openness to feedback and desire to build the product like it is
+            their own
+          </h3>
+          <div class="pers flex flex-col items-center justify-center mt-10 gap-5">
+            <div class="image w-32 h-32 overflow-hidden rounded-full"></div>
+            <h1 class="text-4xl">Miranda Ernst</h1>
+            <h3 class="text-2xl font-light">
+              Product Manager @ HealthCheck360
+            </h3>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div data-color="white" class="capsules section w-full flex items-start justify-between h-screen mt-60 px-32">
+        <div class="left h-full w-1/3 flex flex-col justify-between py-10">
+          <h1 class="text-3xl leading-[2.8rem]">
+            Stay up-to-date on the latest healthcare innovations and thought
+            leadership.
+          </h1>
+          <div class="heading">
+            <h1 class="text-8xl">Explore Our Insights</h1>
+            <div class="w-fit mt-10 px-10 py-5 border-[1px] border-[--dcyan]">
+              <div class="masker overflow-hidden">
+                <span class="inline-block"> Our Solution </span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <div class="right h-full flex items-center gap-20">
+          <div class="capsule -rotate-[16deg] flex flex-col items-center p-10 rounded-full border-[1px] border-black">
+            <div class="w-80 h-80 rounded-full overflow-hidden">
+              <img
+                class="w-full h-full object-cover"
+                src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483190/68406c4fac2acfa27649dbfe_digital-therapeutics.jpg"
+              />
+            </div>
+            <div class="text text-center font-sans mt-20">
+              <h3 class="text-3xl">Equity in Tech: An</h3>
+              <h3 class="text-3xl">International Women's</h3>
+              <h3 class="text-3xl">Day Conversation With</h3>
+              <h3 class="text-3xl">Caroline Nieto,</h3>
+              <h3 class="text-3xl">Signfico's CPO</h3>
+            </div>
+            <button
+              class="bg-purple-400 text-white px-4 rounded-full text-2xl mt-10 mb-40 px-3 py-1 font-serif text-black"
+            >
+              thought Leadership
+            </button>
+          </div>
+          <div class="capsule translate-y-60 -rotate-[16deg]  flex flex-col items-center p-10 rounded-full border-[1px] border-black"
+          >
+            <div class="w-80 h-80 rounded-full overflow-hidden">
+              <img
+                class="w-full h-full object-cover"
+                src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483190/68406c4fac2acfa27649dbfe_digital-therapeutics.jpg"
+              />
+            </div>
+            <div class="text text-center font-sans mt-20">
+              <h3 class="text-3xl">Equity in Tech: An</h3>
+              <h3 class="text-3xl">International Women's</h3>
+              <h3 class="text-3xl">Day Conversation With</h3>
+              <h3 class="text-3xl">Caroline Nieto,</h3>
+              <h3 class="text-3xl">Signfico's CPO</h3>
+            </div>
+            <button
+              class="bg-purple-400 text-white px-4 rounded-full text-2xl mt-10 mb-40 py-1 font-serif text-black"
+            >
+              thought Leadership
+            </button>
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+      integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/bundled/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
