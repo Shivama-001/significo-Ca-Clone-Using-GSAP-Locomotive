@@ -9,7 +9,7 @@
 
 .vdodiv{
     clip-path:circle(var(--clip) at 50% 50%)
-    
+
 
 }
 
@@ -49,20 +49,17 @@ body{
     transition: background-color ease-out .5s;
 }
 
-/* Base tweaks */
+
 .vdodiv video{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-/* ============================
-   Responsive layout & typography
-   ============================ */
 
-/* Large tablets and down */
+
 @media (max-width: 1024px){
-    /* Craft section */
+
     .craft.section{
         flex-direction: column;
         gap: 2.5rem;
@@ -81,7 +78,7 @@ body{
         height: auto;
     }
 
-    /* Real impact slides */
+
     .real .slides{
         gap: 3rem;
     }
@@ -92,27 +89,25 @@ body{
         font-size: 1.5rem;
     }
 
-    /* Team list */
     .team h1,
     .team h3{
         font-size: 2.25rem;
     }
 
-    /* Capsules */
+
     .capsules.section{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
 }
 
-/* Tablets and down */
+
 @media (max-width: 768px){
-    /* Hero marquee text */
+
     .marqueecontainer .elem h1{
         font-size: 2.5rem;
     }
 
-    /* Craft section typography */
     .craft .ltext p{
         font-size: 1.1rem;
         line-height: 1.9rem;
@@ -123,7 +118,7 @@ body{
         margin-top: 2.5rem;
     }
 
-    /* Team section heading */
+
     .team.section{
         padding-top: 6rem;
         padding-bottom: 6rem;
@@ -139,7 +134,7 @@ body{
         gap: 1.5rem;
     }
 
-    /* Paragraph testimonial */
+
     .paragraph.section{
         height: auto;
         padding: 4rem 1.5rem;
@@ -152,7 +147,7 @@ body{
         line-height: 2.1rem;
     }
 
-    /* Capsules stacking */
+
     .capsules.section{
         flex-direction: column;
         height: auto;
@@ -173,9 +168,9 @@ body{
     }
 }
 
-/* Small phones */
+
 @media (max-width: 480px){
-    /* Reduce large headings */
+
     .text-8xl{
         font-size: 3.25rem;
     }
@@ -190,13 +185,13 @@ body{
         font-size: 1.4rem;
     }
 
-    /* Craft cards text */
+
     .craft .cards p{
         width: 100%;
         font-size: 1rem;
     }
 
-    /* Slides big numbers */
+
     .real .slide h1{
         font-size: 2.75rem;
     }
@@ -204,13 +199,13 @@ body{
         font-size: 1.6rem;
     }
 
-    /* Team list pictures: keep off-screen until hover, but smaller when shown */
+
     .team .picture{
         width: 14rem;
         height: 14rem;
     }
 
-    /* Capsules inner text */
+    
     .capsules .capsule .text h3{
         font-size: 1.3rem;
     }
